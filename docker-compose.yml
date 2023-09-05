@@ -1,0 +1,7 @@
+version: '3'
+services:
+  xvfb-browser:
+    build: .
+    ports:
+      - "5901:5900"
+
